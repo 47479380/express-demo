@@ -9,7 +9,8 @@
     "static": "node static.js",
     "route": "node route.js",
     "response": "node response.js",
-    "hook": "node hook.js"
+    "hook": "node hook.js",
+    "error": "node error.js"
   },
   "keywords": [],
   "author": "",
