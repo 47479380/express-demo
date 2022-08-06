@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "static": "node static.js",
     "route": "node route.js",
-    "response": "node response.js"
+    "response": "node response.js",
+    "hook": "node hook.js"
   },
   "keywords": [],
   "author": "",
