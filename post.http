@@ -1,0 +1,42 @@
+POST http://localhost:3000/singleUpload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="avatar"; filename="avatar.jpg"
+
+< ./avater.jpg
+--WebAppBoundary--
+
+###
+
+POST http://localhost:3000/mulUpload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="avatar"; filename="avatar.jpg"
+
+< ./avater.jpg
+--WebAppBoundary
+Content-Disposition: form-data; name="avatar"; filename="avatar.jpg"
+
+< ./avater.jpg
+--WebAppBoundary--
+
+###
+
+POST http://localhost:3000/a
+Content-Type: application/json
+
+{
+  "id":100
+}
+
+###
+POST http://localhost:3000/a
+Content-Type: application/x-www-form-urlencoded
+
+id=99
+
+###
+
+
